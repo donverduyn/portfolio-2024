@@ -19,6 +19,36 @@ body {
     background-color: rgb(22 33 30);
 }
 
+.title {
+	color:#ffffff;
+	font-family:Bahnschrift, sans-serif;
+	font-size:81px;
+	font-variation-settings:"wdth" 75, "wght" 600;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+.subtitle {
+	color:#00ff9a;
+	font-family:Bahnschrift, sans-serif;
+	font-size:31.1px;
+	font-variation-settings:"wdth" 100, "wght" 700;
+    margin-top: -0.25em;
+    display: block;
+}
+.text {
+	color:#ffffff;
+	font-family:Bahnschrift, sans-serif;
+	font-size:16.2px;
+	font-variation-settings:"wdth" 100, "wght" 400;
+    line-height: 1.33em;
+}
+
+section {
+    margin-top: 0.25em;
+    display: flex;
+    flex-direction: column;
+}
+
 a {
     @apply underline
 }
